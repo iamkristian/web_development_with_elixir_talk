@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome to Weber!</title>
+  <link href="img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <script src="/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>Elixir Feed</h1>
+      </div>
+      <h3>elixir-lang/elixir</h3>
+      <hr>
+      <ul class="list-group">
+        <%= @commits %>
+      </ul>
+    </div>
+  </body>
+</html>
